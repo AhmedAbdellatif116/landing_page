@@ -75,7 +75,7 @@ section {
 }
 
 .navbar__menu .menu__link {
-    display: block;
+    display: inline-flex;
     padding: 1em;
     font-weight: bold;
     text-decoration: none;
@@ -195,7 +195,7 @@ section:nth-of-type(3n + 1) .landing__container::after {
 /* Note: your-active-class class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
 section.your-active-class {
     background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 section.your-active-class .landing__container::before {
@@ -222,9 +222,6 @@ section.your-active-class .landing__container::after {
 	}
 }
 
-ul li:hover {
-  background: #8ab4f8;
-}
 
 input {
 	
@@ -249,29 +246,12 @@ input:active {
   transform: translateY(4px);
 }
 
-
- a:visited {
-	
-	background-color: #888888;
+a.your-active-class{
+    background: #333;
+    color: #fff;
+    transition: ease 0.5s all;
+	padding: 1em;
+    font-weight: bold;
+    text-decoration: none;
 }
- a:active {
-	
-	background-color: #888888;
-}
-
-a{
-	font-size: 14pt;
-	color: #000;
-	font-Weight:bold;
-	margin:2em;
-	text-Decoration: none;
-	
-}
-html {
-	scroll-behavior: smooth;
-	
-}
- .your-active-class a {
-	
-	 background-color:  #8ab4f8;
-}
+ 
