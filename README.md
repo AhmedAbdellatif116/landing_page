@@ -4,7 +4,7 @@
 
 ##Description
 
-this code add new sections to the page and its navagition list to the menue dynamically by clicking a button
+this code add new sections to the page and its navagition list to the menu dynamically by clicking a button
  
 ##Content 
 
