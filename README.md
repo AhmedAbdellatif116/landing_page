@@ -3,6 +3,7 @@
 **version 1.0.0**
 
 ##Description
+
 this code add new sections to the page and its nav list to the menue dynamically by clicking a button
  
 ##Content 
